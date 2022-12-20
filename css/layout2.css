@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: rgb(193, 218, 232);
+}
+
+.main{
+    width: 500px;
+    min-height: 30px;
+    background-color: antiquewhite;
+}
+.Logo{
+    
+    width: 250px;
+    height: 30px;
+    background-color: aqua;
+    float: left;
+    line-height: 30px;
+    padding-left: 2%;
+} 
+.Nav{
+    width: 250px;
+    height: 30px;
+    background-color: aqua;
+    float: right;
+    line-height: 30px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.Header{
+    width: 500px;
+    min-height:100px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    text-align: center ;
+    line-height: 100px;
+}
+.Intro{
+    width: 500px;
+    min-height:80px;
+    background-color: rgb(225, 250, 215);
+    margin-top: 10px;
+    text-align: center ;
+    line-height: 80px;
+}
+.boxs{
+    width: 500px;
+    min-height: 100px;
+    margin-top: 10px;
+    clear: both;
+
+}
+.boxs .box{
+    width: 146.5px;
+    min-height: 200px;
+    background-color: rgb(243, 173, 187);
+    float: left;
+    text-align: center ;
+    line-height: 200px;
+    
+}
+.box:nth-child(2){
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.footer{
+    width: 500px;
+    min-height: 20px;
+    background-color: rgb(202, 202, 250);
+    clear: both;
+    margin-top: 10px;
+    text-align: center ;
+    line-height: 20px;
+}

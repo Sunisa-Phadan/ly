@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main{
+    background-color: #c0d4f4;
+    padding: 10px 20px 10px 20px;
+    overflow: hidden;
+}
+.Logo{
+    background-color: #e6cbf8;
+    padding: 10px;
+}
+.Navigation{
+    background-color: #c7acee;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.Header{
+    background-color: #f687c8;
+    display: flex;
+    height: 100px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.Sideber{
+    background-color: #f1b1c7;
+    margin-top: 5px;
+    display: block;
+    flex: 1;
+    width: 180px;
+    height: 310px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BodyArea{
+    background-color: #f1bffc;
+    width: 220px;
+    height: 310px;
+    float: right;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Footer{
+    background-color: #e19bd6;
+    text-align: center;
+    margin: 10 auto;
+    margin-top: 10px;
+    clear: both;
+
+}    
+    

@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Back{
+    width: 60%;
+    min-height: 100px;
+    margin: auto;
+}
+.main{
+    width: 100%;
+    min-height: 50px;
+    background-color: antiquewhite;
+}
+.Logo{
+    width: 50%;
+    min-height: 50px;
+    float: left;
+    line-height: 50px;
+    padding-left: 2%;
+} 
+.Nav{
+    width: 50%;
+    min-height: 50px;
+    float: right;
+    line-height: 50px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.row{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 10px;
+}
+.col{
+    width: 20%;
+    min-height: 100px;
+    background-color: bisque;
+    float: left;
+}
+.col:nth-child(2),.col:nth-child(3){
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.boxs{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 10px;
+    clear: both;
+
+}
+.boxs .box{
+    width: 32.85%;
+    min-height: 250px;
+    background-color: rgb(243, 173, 187);
+    float: left;
+    text-align: center ;
+    line-height: 200px;
+    
+}
+.box:nth-child(2){
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.footer{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(202, 202, 250);
+    clear: both;
+    margin-top: 30px;
+    text-align: center ;
+    line-height: 50px;
+}
